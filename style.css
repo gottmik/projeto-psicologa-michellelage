@@ -1,114 +1,147 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: white;
-    
+body {
+  background-color: white;
 }
-header{
-    background-color: rgba(255, 255, 255, 0.25);
-    height: 8vh;
-}
-
-.bio{
-    text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: rgba(5, 5, 5, 0.8);
-    display: block !important;
-    
-}
-.bio img{
-    border-radius: 100%;
-    width: 40%;
-    margin-bottom: 5%;
-    
+header {
+  background-color: rgba(255, 255, 255, 0.25);
+  height: 8vh;
 }
 
-.botoes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 10%;
-    
-    border-radius: 10px;
-    
+.bio {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgba(5, 5, 5, 0.8);
+  
 }
-.botao{
-    background-color:rgb(0, 128, 128,0.7);
-    padding: 7%;
-    margin: 7%;
-    width: 100%;
-    border-radius: 10px;
-    
-    
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.2rem;
-    text-align: center;
+.bio img {
+  border-radius: 100%;
+  width: 40%;
+  margin-bottom: 5%;
 }
-.botao a{
-    text-decoration: none;
-    color: white;
-}  
-.bolinhas{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.bolinha{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
 
+.botoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10%;
+
+  border-radius: 10px;
 }
-.bola1{
-    background-color: #9d503e;
-    width: 15px;
-    height: 15px;
-    border-radius: 100%;
-    
-    
+.botao {
+  background-color: rgb(0, 128, 128, 0.7);
+  padding: 7%;
+  margin: 7%;
+  width: 100%;
+  border-radius: 10px;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
 }
-.bola2{
-    background-color: #d5ac7e;
-    width: 15px;
-    height: 15px;
-    border-radius: 100%;
-    
+.botao a {
+  text-decoration: none;
+  color: white;
 }
-.bola3{
-    background-color: #e6ceb4;
-    width: 15px;
-    height: 15px;
-    border-radius: 100%;
-    
+.bolinhas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.bola4{
-    background-color: #b78048;
-    width: 15px;
-    height: 15px;
-    border-radius: 100%;
-    
+.bolinha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.bola5{
-    background-color: #c3765a;
-    width: 15px;
-    height: 15px;
-    border-radius: 100%;
-    
+.bola1 {
+  background-color: #9d503e;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
 }
-.bola6{
-    background-color: #366775;
-    width: 15px;
-    height: 15px;
-    border-radius: 100%;
-    
+.bola2 {
+  background-color: #d5ac7e;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
 }
-.todas-bolas{
-    margin: 5px;
+.bola3 {
+  background-color: #e6ceb4;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+.bola4 {
+  background-color: #b78048;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+.bola5 {
+  background-color: #c3765a;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+.bola6 {
+  background-color: #366775;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+.todas-bolas {
+  margin: 5px;
+}
+footer {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Design\ sem\ nome.svg);
+    background-repeat: no-repeat;
+  }
+  header{
+    display: none;
+  }
+  main{
+   height: 60%;
+   width: 100vw;
+  }
+  .bio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+  }
+  .bi1{
+ width:50vw;
+  }
+  .bi2{
+    width:50vw;
+  }
+  .bolinhas{
+    height: 20px;
+  }
+  .botoes{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    background-color:#b78048;
+    height: 33%;
+  }
+  .botao{
+    margin: 0;
+    padding: 0;
+    background: none;
+  }
 }
