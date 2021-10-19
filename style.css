@@ -138,6 +138,7 @@ footer {
     margin: 0;
     background-color:#b78048;
     height: 33%;
+    border-radius: 0;
   }
   .botao{
     margin: 0;
